@@ -10,11 +10,11 @@ RUN  apt-get install -y \
     curl \
     unzip \
     vim \
+    git \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
     
     # zip \
-    # git \
 
 RUN curl -fsSL https://deno.land/x/install/install.sh | sh
 ENV PATH $PATH:/root/.deno/bin
