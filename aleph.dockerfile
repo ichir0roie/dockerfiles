@@ -21,4 +21,5 @@ ENV PATH $PATH:/root/.deno/bin
 RUN deno run -A https://deno.land/x/aleph/install.ts
 
 # for windows command
+# don't need if use on vscode.
 # RUN rm /bin/sh && ln -s /bin/bash /bin/shssddss
