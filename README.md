@@ -9,7 +9,7 @@ docker build -t  -f .dockerfile .
 
 ## custom
 docker build -t latest-ubuntu -f latest-ubuntu.dockerfile .
-docker build -t aleph -f aleh.dockerfile .
+docker build -t aleph -f aleph.dockerfile .
 
 
 # myDockerfiles
