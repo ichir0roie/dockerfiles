@@ -18,6 +18,6 @@ docker build -t aleph -f aleph.dockerfile .
 
 とりあえず、ubuntuでaleph.jsが動くように色々セットアップ。
 
-## latestUbuntu
+## ubuntu_setup
 
 apt-getしたやつ！！
